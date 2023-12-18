@@ -236,19 +236,8 @@
     color: #37517e;
   }
 
-  .team{
-    padding: 60px 0;
-    background-color: #f3f5fa; 
-  }
-  .section-team h2{
-    font-size: 32px;
-    font-weight: bold;
-    text-transform: uppercase;
-    margin-bottom: 20px;
-    padding-bottom: 20px;
-    position: relative;
-    color: #37517e;
-  }
+   
+   
 
    .pic{
     width: 160px;
@@ -314,9 +303,7 @@
     margin-bottom: 0;
     font-family: "Jost", sans-serif;
     color: #5e5e5e;
-  }
- 
-  
+  } 
 
   @keyframes up-down {
     from {
