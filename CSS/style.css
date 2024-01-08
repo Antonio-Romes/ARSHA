@@ -63,6 +63,10 @@
     left: -30px;
   }
 
+  .height-100vh {
+    height: 100vh;
+  }
+
   .selector-for-some-widget {
     box-sizing: content-box;
   }
@@ -113,19 +117,10 @@
     background-color: #249fd9; 
     width: 100px;
   }
-
-  
-
-  .section-clients{ 
-    
-    height: 100px;
-    background-color: #f3f5fa;
-    
-  }
+ 
 
   .section-clients img{ 
-    width: 8%;
-    height: 25%;
+     
     margin: 0 40px;
     filter: grayscale(1);
   }
