@@ -10,7 +10,19 @@
    box-sizing: border-box;
  }
  
-  .bg-azul-marinho-intenso{
+
+ .content{
+  width: 100%;
+  height: 100vh;
+  background-color: #485f5e;
+ }
+
+ .height-100vh {
+  height: 100vh;
+}
+
+ /*
+  .bg-azul-marinho-intenso, .bg-xl-azul-marinho-intenso{
     background-color: #37517e;
   }
 
@@ -291,6 +303,12 @@
     color: #5e5e5e;
   } 
 
+  @media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  }
+
   @keyframes up-down {
     from {
       transform: translateY(10px);
@@ -299,3 +317,5 @@
       transform: translateY(-10px);
     }
   }
+  */
+  
