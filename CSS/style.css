@@ -33,7 +33,7 @@
  }
 
  #home nav .collapse ul li a{
-  color: #fff;
+  color: #fff; 
  }
 
  #home nav .collapse button{
@@ -42,6 +42,21 @@
   border-radius: 2rem;
   padding: .2rem 1rem;
  }
+
+  
+ 
+
+ .section-clients img{
+  width: 12%; 
+  margin: 1rem;
+  filter: grayscale(100%);
+ }
+
+ .section-clients img:hover{  
+  filter: grayscale(0);
+ }
+
+ 
 
 @media (max-width: 992px) {
   #home nav{ 
@@ -68,6 +83,36 @@
     padding: .2rem 1rem;
     width: 100%;
     text-align: left;
+   }
+   .section-banner{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   }
+   .section-banner img{
+    width: 50%;
+    height: 75%;
+   }
+
+   .section-clients img{
+    width: 25%; 
+    margin: 1rem;
+   } 
+    
+}
+
+@media (max-width: 768px) {
+  .section-clients img{
+    width: 40%; 
+    margin: 1rem;
+   }
+}
+
+@media (max-width: 576px) {
+  .section-clients img{
+    width: 40%; 
+    margin: 1rem;
    }
 }
 
