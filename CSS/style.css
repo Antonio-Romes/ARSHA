@@ -10,10 +10,13 @@
    box-sizing: border-box;
  }
  
+ .bg-cor-fundo{
+  background-color: #f3f5fa;
+}
 
  .content{
   width: 100%;
-  height: 100vh;
+  height: 80vh;
   background-color: #37517e;;
  }
 
